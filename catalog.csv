@@ -1,0 +1,26 @@
+Variável,Tipo,Tipo Python,Descrição,Valores esperados,Valor default (caso ausente)
+AcceptedCmp1,booleana,int64,"1 se cliente aceitou a oferta na 1ª campanha, 0 caso contrário",0 ou 1,0
+AcceptedCmp2,booleana,int64,"1 se cliente aceitou a oferta na 2ª campanha, 0 caso contrário",0 ou 1,0
+AcceptedCmp3,booleana,int64,"1 se cliente aceitou a oferta na 3ª campanha, 0 caso contrário",0 ou 1,0
+AcceptedCmp4,booleana,int64,"1 se cliente aceitou a oferta na 4ª campanha, 0 caso contrário",0 ou 1,0
+AcceptedCmp5,booleana,int64,"1 se cliente aceitou a oferta na 5ª campanha, 0 caso contrário",0 ou 1,0
+Age,numérica,int64,Idade do cliente,>= 0 e <= 120,55.0
+Complain,booleana,int64,"1 se reclamou nos últimos 2 anos, 0 caso contrário",0 ou 1,0
+Education,categórica,object,Nível de escolaridade,"['2n Cycle', 'Graduation', 'PhD', 'Master', 'Basic']",Graduation
+Income,numérica,int64,Renda anual do domicílio,>= 0 e <= 2000000,51563.0
+Kidhome,numérica,int64,Número de crianças pequenas no domicílio,>= 0 e <= 6,0
+Marital_Status,categórica,object,Estado civil,"['Married', 'Together', 'Single', 'Divorced', 'Widow']",Married
+MntFishProducts,numérica,int64,Valor gasto com peixes em 2 anos,>= 0 e <= 800,12.0
+MntFruits,numérica,int64,Valor gasto com frutas em 2 anos,>= 0 e <= 600,8.0
+MntGoldProds,numérica,int64,Valor gasto com produtos de ouro em 2 anos,>= 0 e <= 1000,24.0
+MntMeatProducts,numérica,int64,Valor gasto com carnes em 2 anos,>= 0 e <= 6000,69.0
+MntSweetProducts,numérica,int64,Valor gasto com doces em 2 anos,>= 0 e <= 800,8.0
+MntWines,numérica,int64,Valor gasto com vinhos em 2 anos,>= 0 e <= 5000,179.0
+NumCatalogPurchases,numérica,int64,Compras por catálogo,>= 0 e <= 90,2.0
+NumDealsPurchases,numérica,int64,Compras com desconto,>= 0 e <= 50,2.0
+NumStorePurchases,numérica,int64,Compras em loja física,>= 0 e <= 40,5.0
+NumWebPurchases,numérica,int64,Compras online,>= 0 e <= 90,4.0
+NumWebVisitsMonth,numérica,int64,Visitas ao site no último mês,>= 0 e <= 60,6.0
+Recency,numérica,int64,Dias desde a última compra,>= 0 e <= 300,50.0
+Teenhome,numérica,int64,Número de adolescentes no domicílio,>= 0 e <= 6,0
+Time_Customer,numérica,float64,Tempo (em dias) desde que se tornou cliente,>= 0 e <= 40,11.76

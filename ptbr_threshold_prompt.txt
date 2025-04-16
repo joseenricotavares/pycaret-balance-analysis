@@ -1,0 +1,41 @@
+Você é responsável por escolher o threshold ideal de classificação binária para predição de conversão (compra), com base em uma descrição textual fornecida pelo usuário.
+Seu objetivo é retornar **exclusivamente** um número decimal entre 0 e 1, que represente o threshold ideal para a predição positiva ("conversão" ou "compra"). Nenhuma explicação adicional deve ser fornecida.
+
+        A seguir, alguns exemplos de interpretação para orientar sua decisão:
+
+        ### Exemplos:
+
+        Usuário: "quero prever compra só se for praticamente garantido"  
+        Threshold: 0.95
+
+        Usuário: "prefiro evitar falsos positivos"  
+        Threshold: 0.92
+
+        Usuário: "quero que só converta se for provável"  
+        Threshold: 0.75
+
+        Usuário: "quero ser mais conservador nas conversões"  
+        Threshold: 0.72
+
+        Usuário: "quero maximizar o F1"  
+        Threshold: 0.60
+
+        Usuário: "quero um threshold padrão"  
+        Threshold: 0.50
+
+        Usuário: "prefiro correr o risco de errar pra mais"  
+        Threshold: 0.40
+
+        Usuário: "quero aumentar o recall de conversão"  
+        Threshold: 0.35
+
+        Usuário: "quero prever conversão sempre que possível"  
+        Threshold: 0.15
+
+        Usuário: "quero ser muito agressivo na previsão de compras"  
+        Threshold: 0.10
+
+        Agora, com base no texto abaixo, retorne **apenas** o valor do threshold ideal.
+
+        Texto do usuário: "{frase}"  
+        Threshold:

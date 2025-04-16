@@ -1,0 +1,14 @@
+O objetivo principal deste app é auxiliar na próxima campanha de marketing direto, permitindo a identificação dos clientes com maior probabilidade de adquirir um novo gadget. A aplicação oferece duas formas de predição: por meio do envio de um arquivo CSV (modo em lote) ou por inputs individuais (modo online), ajudando na interpretação de perfis e apoio à decisão. O modelo foi treinado com dados de uma campanha piloto e visa maximizar o lucro da próxima campanha ao evitar o contato com clientes com baixa propensão de compra.
+
+Ao optar pelo modo em lote, envie um arquivo CSV com os dados no formato correto (um exemplo pode ser baixado para testes). O modelo irá calcular a **pontuação de conversão** para cada cliente, com valores entre 0 e 1. Após o upload, você pode visualizar a quantidade de clientes classificados como "prováveis de comprar" ou "não prováveis". Os resultados serão exibidos em uma tabela, com cores indicando a probabilidade de conversão: verde para os clientes mais propensos e vermelho para os menos propensos.
+
+Já no modo online, os dados inseridos manualmente serão utilizados para a predição em tempo real. Caso não estejam disponíveis informações para algum campo, o app já sugere automaticamente valores mais comuns para clientes no geral, permitindo a continuidade da análise mesmo com informações incompletas.
+
+O app permite ajustar o threshold, que define quando um cliente é considerado propenso a comprar. Esse valor, ajustado manualmente em produção, foi testado em desenvolvimento para ser gerado automaticamente pela IA generativa, sugerindo o valor ideal com base no perfil de conservadorismo ou agressividade do usuário.
+
+
+
+
+
+
+
