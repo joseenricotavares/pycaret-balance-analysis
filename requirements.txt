@@ -1,9 +1,8 @@
-streamlit>=1.32.0
+streamlit
 pandas
 numpy
-scikit-learn==1.2.2
+scikit-learn==1.4.2
 joblib==1.3.2
-scipy==1.11.4
+pycaret[classification]==3.3.2
 matplotlib==3.7.5
 seaborn==0.13.2
-pycaret==3.0.0
